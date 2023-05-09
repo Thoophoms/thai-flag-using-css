@@ -1,0 +1,40 @@
+html{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.flag{
+    background-color: #a51931;
+    width: 900px;
+    height: 600px;
+    position:relative;
+
+    position: relative
+}
+
+.flag > div{
+    background-color: #f4f5f8;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 15%;
+}
+
+.flag > div > div{
+    background-color: #2d2a4a;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 25%;
+}
+
+.content{
+    position: absolute;
+    font-size: 2rem;
+}
+
+h1, h3{
+    color: yellow;
+}
+
